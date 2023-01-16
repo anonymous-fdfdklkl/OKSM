@@ -1,0 +1,48 @@
+{'dataset': 'fiw', 'num_trials': 5, 'start_trial': 0, 'name': 'fiw-HK_trip_tanhNet_7type_loss5_hard', 'model': 'fiw-HK_trip_tanhNet_7type_loss5_hard', 'real_sn': False, 'trial': 0}
+==> Preparing data for trial 0..
+==> Building open set network for trial 0..
+op_shr_knun is 1.9416639804840088
+op_shr_kinnon is 2.3828959465026855
+Precision:=> known:0.6280, unknown_kin-related:0.1536, unknown-non-kin:0.4717
+Recall:=> known:0.4988, unknown_kin-related:0.2185, unknown-non-kin:0.5180
+F1:=> known:0.5560, unknown_kin-related:0.1804, unknown-non-kin:0.4938
+ACC:0.4618,AUC-known-unknon:0.6583,AUC-kin-nonkin:0.5983, F1:0.4101
+==> Preparing data for trial 1..
+==> Building open set network for trial 1..
+op_shr_knun is 2.08636474609375
+op_shr_kinnon is 3.1359848976135254
+Precision:=> known:0.4808, unknown_kin-related:0.4671, unknown-non-kin:0.4986
+Recall:=> known:0.5507, unknown_kin-related:0.5338, unknown-non-kin:0.2749
+F1:=> known:0.5133, unknown_kin-related:0.4982, unknown-non-kin:0.3544
+ACC:0.4768,AUC-known-unknon:0.6555,AUC-kin-nonkin:0.6279, F1:0.4553
+==> Preparing data for trial 2..
+==> Building open set network for trial 2..
+op_shr_knun is 2.1374473571777344
+op_shr_kinnon is 2.7029154300689697
+Precision:=> known:0.2839, unknown_kin-related:0.5140, unknown-non-kin:0.5680
+Recall:=> known:0.5651, unknown_kin-related:0.2856, unknown-non-kin:0.6157
+F1:=> known:0.3780, unknown_kin-related:0.3672, unknown-non-kin:0.5909
+ACC:0.4640,AUC-known-unknon:0.7095,AUC-kin-nonkin:0.6772, F1:0.4454
+==> Preparing data for trial 3..
+==> Building open set network for trial 3..
+op_shr_knun is 2.0212011337280273
+op_shr_kinnon is 2.9758734703063965
+Precision:=> known:0.4595, unknown_kin-related:0.5409, unknown-non-kin:0.4508
+Recall:=> known:0.5763, unknown_kin-related:0.4512, unknown-non-kin:0.4648
+F1:=> known:0.5113, unknown_kin-related:0.4920, unknown-non-kin:0.4577
+ACC:0.4903,AUC-known-unknon:0.7109,AUC-kin-nonkin:0.6698, F1:0.4870
+==> Preparing data for trial 4..
+==> Building open set network for trial 4..
+op_shr_knun is 2.266730546951294
+op_shr_kinnon is 3.1703221797943115
+Precision:=> known:0.5486, unknown_kin-related:0.2912, unknown-non-kin:0.4698
+Recall:=> known:0.6675, unknown_kin-related:0.3241, unknown-non-kin:0.1862
+F1:=> known:0.6022, unknown_kin-related:0.3068, unknown-non-kin:0.2667
+ACC:0.4600,AUC-known-unknon:0.6080,AUC-kin-nonkin:0.6434, F1:0.3919
+========== average ==========
+fiw-HK_trip_tanhNet_7type_loss5_hard
+loss5_hard
+average ACC:0.4706,AUC-known-unknon:0.6684,AUC-kin-nonkin:0.6433, F1:0.4379
+Primary:Precision:0.4802, Recall:0.5717, F1:0.5122
+Secondary:Precision:0.3934, Recall:0.3627, F1:0.3689
+Non-kin:Precision:0.4918, Recall:0.4119, F1:0.4327
