@@ -1,0 +1,50 @@
+{
+	"fiw":
+		{
+			"name": "fiw",
+
+			"batch_size": 64,
+
+
+			"training": {
+				"learning_rate": 0.001,
+				"weight_decay": 5e-6,
+
+				"max_epoch": 250
+			},
+
+
+			"cross_validation": {
+				"0": {"train_cs": [1,2,3],
+					"eval_thr": [4],
+         			"eval_cs": [5]},
+				"1": {"train_cs": [1,2,5],
+					"eval_thr": [3],
+         			"eval_cs": [4]},
+				"2": {"train_cs": [1,4,5],
+					"eval_thr": [2],
+         			"eval_cs": [3]},
+				"3": {"train_cs": [3,4,5],
+					"eval_thr": [1],
+         			"eval_cs": [2]},
+				"4": {"train_cs": [2,3,4],
+					"eval_thr": [5],
+         			"eval_cs": [1]}
+			},
+
+			"dataloader_workers": 1,
+
+			"im_size": 64,
+			"im_channels": 6,
+
+
+			"data_transforms": {"flip": 0.5, "rotate": 10, "scale_min": 0.8},
+
+			"dropout": 0.2,
+
+			"num_known_classes": 7,
+			"num_classes": 7
+
+	}
+
+}
